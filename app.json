@@ -9,11 +9,11 @@
          "manager",
          "Adventure"
       ],   
-   "repository": "https://github.com/noob-mukesh/MukeshRobot",
+   "repository": "https://github.com/petinggint/MukeshRobot",
    "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "14"
          },
          "plan": "heroku-postgresql"
       }
@@ -22,17 +22,17 @@
       "TOKEN": {
          "description": "Get bot token from @BotFather on TG",
          "required": true,
-         "value": "5559518126:AAHs1G_S_52pHu36JbBQNMmKCIoLEez_8ok"
+         "value": "7332282176:AAGw29ztWoot8UnK0Zu9JAdyz06dhgtkQwk"
       },
       "API_ID": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "29024813"
       },
       "API_HASH": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": "d94fe90a1d7ee5ce6f36b20d4ca79280"
+         "value": "0267bcb193eb847cff43270982cc0ff2"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, Leave this field empty if you don't have one.",
@@ -42,11 +42,11 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "5207640479"
+         "value": "7390960414"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
-        "value": ""
+        "value": "HRKU-f0b98355-942a-46ef-8007-8504559a7b79"
       },
       "HEROKU_APP_NAME": {
         "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
@@ -54,27 +54,27 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Itz_mst_boi"
+         "value": "yaudai"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Fallen Support than consider you made an enemy.",
          "required": true,
-         "value": "worldwide_friend_zone"
+         "value": ""
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://salsabila:1234@cluster0.abg3i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001613182747"
+         "value": ""
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001613182747"
+         "value": ""
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -94,7 +94,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Mukesh Support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "5207640479"
+         "value": "7390960414"
       },
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -103,22 +103,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1253420280"
+         "value": "7390960414"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1105579406"
+         "value": "7390960414"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": "5582568404"
+         "value": "7390960414"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1726528906"
+         "value": "7390960414"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -146,7 +146,7 @@
       "DONATION_LINK": {
          "description": "Link where you would like to receive donations. If you are a noob, better leave it linking to Mukesh",
          "required": false,
-         "value": "https://t.me/itz_mst_boi"
+         "value": "https://t.me/yaudai"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -155,7 +155,7 @@
       "START_IMG": {
       "description": "Telegraph link of the image which will be shown at start command.",
          "required": true,
-         "value": "https://telegra.ph/file/c84f9c553c6e14e99b93d.jpg"
+         "value": "https://files.catbox.moe/q3x18c.jpg"
    }
    }
 }
